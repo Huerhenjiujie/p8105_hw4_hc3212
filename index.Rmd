@@ -1,0 +1,22 @@
+---
+title: "Hening Cui's website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# Welcome
+
+Hello, everyone, this is Hening Cui.
+
+__This is my website, welcome!__
+
+I am currently studying biostatistics in Columbia University.
+
+I love cat, they are so Cute!!!
+
+<img src="image/image.jpeg" style="width:75%">
+
+
+

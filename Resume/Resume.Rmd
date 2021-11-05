@@ -1,0 +1,110 @@
+---
+title: Resume
+name: Hening
+surname: Cui
+address: "100 Haven Ave, Apt 11d, New York, NY, US"
+phone: +1 646 675 3669
+email: "hc3212@cumc.columbia.edu"
+github: HUERHENJIUJIE
+date: "`r format(Sys.time(), '%B %Y')`"
+output: 
+  vitae::markdowncv:
+    theme: kjhealy
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+
+## Education
+
+__Columbia University, Mailman School of Public Health, NY, US__
+
+Master of Science in Biostatistics
+
+September 2021-April 2023(expected) 
+
+__Hong Kong Polytechnic University, Hong Kong__
+
+Bachelor of Science in Applied Biology with Biotechnology, BSc. (HONS)
+
+September 2016 - April 2020
+
+GPA: 3.53/4.00
+
+## Research Experience
+
+__Brigham and Women’s Hospital, Harvard Medical School, Boston, MA__
+
+*Intern Researcher*
+
+•	Studied causes of pulmonary hypertension and Fibrodysplasia Ossificans Progressiva (FOP)
+
+•	Mastered knowledge of vascular cells and BMP growth factor
+
+•	Conducted ultrasonic testing, analysis of qPCR, DNA and RNA extraction and immunofluorescence staining
+
+Summer 2019
+
+__Hong Kong Polytechnic University, Hong Kong__
+
+*Student Lab Assistant*
+
+•	Learned technique of cultivating cell line, western bloting and lab mouse dissection
+
+•	Participated co-authored and contributed to the published paper of the research of Conditional Inactivation of Nf1 and Pten in Schwann Cells Results in Abnormal Neuromuscular Junction Maturation
+
+January 2018 - September 2019
+
+__Shenzhen University, Shenzhen, China__
+
+*Student Assistant*
+
+•	Co-authored and contributed to the research paper Rare variants on germline genome holistically determine HER2 pathway activation and immune suppression shaping pathological type and risk of breast cancer
+
+•	Participated in the research of Effectiveness of Taxol to Cancer
+
+•	Transcripted over 40 clinical trials; collected, analyzed and managed data for research use
+
+Summer 2017
+
+## Additional experience
+
+__Zhejiang University, Zhejiang, China __
+
+*Full job, Research assistant*
+
+•	Participated in the research of intestine organoid
+
+Summer 2021
+ 
+__Zhejiang Hailisheng Pharmaceuticals Limited, Zhoushan, China__
+
+*Intern, R&D Department*
+
+•	Participated in product research and development process
+
+•	Applied data management skills to facilitate working efficiency
+
+Summer 2018
+
+__Shenzhen Zheyuan Technology Co. Ltd, Shenzhen, China__
+
+*Intern*
+
+•	Assisted the staff in collecting and sorting data
+
+•	Acquired fundamental knowledge of the subject of Bioinformatics
+
+Summer 2017
+
+## Skills
+
+__Language__
+
+Chinese(native), English (fluent), Japanese (fluent)
+
+__Programming and software__
+
+Javascript, R, Prism
