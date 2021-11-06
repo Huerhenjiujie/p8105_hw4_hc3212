@@ -1,0 +1,89 @@
+---
+title: "DashBoard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+```{r data_cleaning}
+data("instacart")
+instacart = 
+  instacart%>% 
+  sample_n(1000) %>% # select 1000 observations
+  select(order_id, product_id, user_id, product_name, aisle_id, aisle, department, department_id, order_number)
+```
+
+Column {data-width=550}
+-----------------------------------------------------------------------
+
+### The 3D scatter plot of product total number
+
+The 3D scatter plot shows the distribution of product total number within aisle and product name.
+
+```{r}
+instacart %>% 
+  group_by(aisle, product_name) %>% 
+  summarize(total_order_number = sum(order_number)) %>% 
+  mutate(text_label = str_c("Product :", product_name,"\nAisle:", aisle)) %>% 
+  plot_ly(
+    x = ~aisle, y = ~total_order_number, z = ~product_name, color = ~total_order_number, 
+    alpha = 0.5, text = ~text_label, type = "scatter3d", mode = "markers") %>% 
+  layout(
+    legend =
+      list(font = list(size = 8)))
+```
+
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### The boxplot of product total order numbers within aisle
+
+The boxplot shows the distribution of product total order number in each aisle.
+
+```{r}
+instacart %>%
+  group_by(aisle, aisle_id, product_name) %>% 
+  summarize(total_order_number = sum(order_number)) %>% 
+  mutate(
+    aisle = as.factor(aisle),
+    aisle = fct_reorder(aisle, total_order_number)) %>% 
+  plot_ly(
+    y = ~ total_order_number,
+    x = ~ aisle,
+    type = "box",
+    color = ~aisle,
+    colors = "viridis"
+  ) %>% 
+  layout(
+    legend = list(font = list(size = 5)))
+
+```
+
+### The bar plot of total order number
+
+The bar plot shows the total order number in each aisle.
+
+```{r}
+instacart %>% 
+  group_by(aisle) %>% 
+  summarise(total_product_number = sum(order_number)) %>% 
+  mutate(aisle = fct_reorder(aisle, total_product_number)) %>% 
+  plot_ly(
+    x = ~aisle, y = ~total_product_number, color = ~aisle, 
+    alpha = 0.5, type = "bar", mode = "markers") %>% 
+  layout(
+    legend =
+      list(font = list(size = 5)))
+  
+```
+

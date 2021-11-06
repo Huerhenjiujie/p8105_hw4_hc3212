@@ -6,7 +6,7 @@ navbar:
     - text: "Resume"
       href: ./Resume/Resume.html
     - text: "Dashboard"
-      href: Dashboard.html
+      href: ./Dashboard/Dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<heningcui@gmail.com>
     - icon: fa-github fa-lg
