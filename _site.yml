@@ -6,7 +6,7 @@ navbar:
     - text: "Resume"
       href: ./Resume/Resume.html
     - text: "Dashboard"
-      href: ./Dashboard/Dashboard.html
+      href: https://heningcui.shinyapps.io/interactdashboard/
     - icon: fa-envelope fa-lg
       href: mailto:<heningcui@gmail.com>
     - icon: fa-github fa-lg

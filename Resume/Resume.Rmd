@@ -25,6 +25,8 @@ Master of Science in Biostatistics
 
 September 2021-April 2023(expected) 
 
+GPA: 3.99/4.00
+
 __Hong Kong Polytechnic University, Hong Kong__
 
 Bachelor of Science in Applied Biology with Biotechnology, BSc. (HONS)
@@ -33,7 +35,34 @@ September 2016 - April 2020
 
 GPA: 3.53/4.00
 
-## Research Experience
+Rewards: Department of Applied Biology and Chemical Technology - Subject Prize for Outstanding Performance 2019/20
+
+## Skills
+
+__Programming and software__
+
+Java, R, SQL, Prism
+
+Certificate: Qualification of Computer and Software professional in database engineer (China)
+
+__Language__
+
+Chinese(native), English (fluent), Japanese (fluent)
+
+
+
+## Research Experience and Project
+
+__Predicting the Price of Bitcoin (BTC) Using Deep Learning, University of Columbia__
+
+*Project Team Leader*
+
+•	Researched and compared ARIMA, RNN, and LSTM, using Python to determine accuracy in BTC price prediction 
+
+•	Used mean square error (MSE), to evaluate and compare the accuracy of models 
+
+•	Successfully determined LSTM achieved best results in this research and performed well in long-term trends prediction 
+
 
 __Brigham and Women’s Hospital, Harvard Medical School, Boston, MA__
 
@@ -99,12 +128,3 @@ __Shenzhen Zheyuan Technology Co. Ltd, Shenzhen, China__
 
 Summer 2017
 
-## Skills
-
-__Language__
-
-Chinese(native), English (fluent), Japanese (fluent)
-
-__Programming and software__
-
-Javascript, R, Prism
